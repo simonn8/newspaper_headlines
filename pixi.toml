@@ -1,0 +1,13 @@
+[project]
+name = "newspaper_headlines"
+version = "0.1.0"
+description = "Automatic daily headline scraper"
+authors = ["Simon Nachtergaele <simon.nachtergaele@gmail.com>"]
+channels = ["conda-forge"]
+platforms = ["osx-64", "linux-64", "osx-arm64"]
+
+[tasks]
+
+[dependencies]
+beautifulsoup4 = ">=4.12.3,<4.13"
+requests = ">=2.31.0,<2.32"
