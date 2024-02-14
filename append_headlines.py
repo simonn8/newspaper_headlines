@@ -44,4 +44,4 @@ headlines_dict = {"timestamp":iso_8601_string, "titles":titles }
 
 
 with open("daily_mail_headlines.jsonl", "a", encoding="utf-8") as f:
-    f.write(json.dumps(headlines_dict, ensure_ascii=False))
+    f.write(json.dumps(headlines_dict, ensure_ascii=False) + "\n")
