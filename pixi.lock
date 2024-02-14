@@ -134,24 +134,6 @@ packages:
   size: 118200
   timestamp: 1705564819537
 - kind: conda
-  name: beautifulsoup4
-  version: 4.12.3
-  build: pyha770c72_0
-  subdir: osx-64
-  noarch: python
-  url: https://conda.anaconda.org/conda-forge/noarch/beautifulsoup4-4.12.3-pyha770c72_0.conda
-  sha256: 7b05b2d0669029326c623b9df7a29fa49d1982a9e7e31b2fea34b4c9a4a72317
-  md5: 332493000404d8411859539a5a630865
-  depends:
-  - python >=3.6
-  - soupsieve >=1.2
-  arch: x86_64
-  platform: osx
-  license: MIT
-  license_family: MIT
-  size: 118200
-  timestamp: 1705564819537
-- kind: conda
   name: brotli-python
   version: 1.1.0
   build: py312h30efb56_1
@@ -206,8 +188,6 @@ packages:
   - python_abi 3.12.* *_cp312
   constrains:
   - libbrotlicommon 1.1.0 h0dc2134_1
-  arch: x86_64
-  platform: osx
   license: MIT
   license_family: MIT
   size: 366883
@@ -221,8 +201,6 @@ packages:
   url: https://conda.anaconda.org/conda-forge/osx-64/bzip2-1.0.8-h10d778d_5.conda
   sha256: 61fb2b488928a54d9472113e1280b468a309561caa54f33825a3593da390b242
   md5: 6097a6ca9ada32699b5fc4312dd6ef18
-  arch: x86_64
-  platform: osx
   license: bzip2-1.0.6
   license_family: BSD
   size: 127885
@@ -263,8 +241,6 @@ packages:
   url: https://conda.anaconda.org/conda-forge/osx-64/ca-certificates-2024.2.2-h8857fd0_0.conda
   sha256: 54a794aedbb4796afeabdf54287b06b1d27f7b13b3814520925f4c2c80f58ca9
   md5: f2eacee8c33c43692f1ccfd33d0f50b1
-  arch: x86_64
-  platform: osx
   license: ISC
   size: 155665
   timestamp: 1706843838227
@@ -305,22 +281,6 @@ packages:
   size: 160559
   timestamp: 1707022289175
 - kind: conda
-  name: certifi
-  version: 2024.2.2
-  build: pyhd8ed1ab_0
-  subdir: osx-64
-  noarch: python
-  url: https://conda.anaconda.org/conda-forge/noarch/certifi-2024.2.2-pyhd8ed1ab_0.conda
-  sha256: f1faca020f988696e6b6ee47c82524c7806380b37cfdd1def32f92c326caca54
-  md5: 0876280e409658fc6f9e75d035960333
-  depends:
-  - python >=3.7
-  arch: x86_64
-  platform: osx
-  license: ISC
-  size: 160559
-  timestamp: 1707022289175
-- kind: conda
   name: charset-normalizer
   version: 3.3.2
   build: pyhd8ed1ab_0
@@ -336,23 +296,6 @@ packages:
   size: 46597
   timestamp: 1698833765762
 - kind: conda
-  name: charset-normalizer
-  version: 3.3.2
-  build: pyhd8ed1ab_0
-  subdir: osx-64
-  noarch: python
-  url: https://conda.anaconda.org/conda-forge/noarch/charset-normalizer-3.3.2-pyhd8ed1ab_0.conda
-  sha256: 20cae47d31fdd58d99c4d2e65fbdcefa0b0de0c84e455ba9d6356a4bdbc4b5b9
-  md5: 7f4a9e3fcff3f6356ae99244a014da6a
-  depends:
-  - python >=3.7
-  arch: x86_64
-  platform: osx
-  license: MIT
-  license_family: MIT
-  size: 46597
-  timestamp: 1698833765762
-- kind: conda
   name: idna
   version: '3.6'
   build: pyhd8ed1ab_0
@@ -363,23 +306,6 @@ packages:
   md5: 1a76f09108576397c41c0b0c5bd84134
   depends:
   - python >=3.6
-  license: BSD-3-Clause
-  license_family: BSD
-  size: 50124
-  timestamp: 1701027126206
-- kind: conda
-  name: idna
-  version: '3.6'
-  build: pyhd8ed1ab_0
-  subdir: osx-64
-  noarch: python
-  url: https://conda.anaconda.org/conda-forge/noarch/idna-3.6-pyhd8ed1ab_0.conda
-  sha256: 6ee4c986d69ce61e60a20b2459b6f2027baeba153f0a64995fd3cb47c2cc7e07
-  md5: 1a76f09108576397c41c0b0c5bd84134
-  depends:
-  - python >=3.6
-  arch: x86_64
-  platform: osx
   license: BSD-3-Clause
   license_family: BSD
   size: 50124
@@ -418,8 +344,6 @@ packages:
   url: https://conda.anaconda.org/conda-forge/osx-64/libcxx-16.0.6-hd57cbcb_0.conda
   sha256: 9063271847cf05f3a6cc6cae3e7f0ced032ab5f3a3c9d3f943f876f39c5c2549
   md5: 7d6972792161077908b62971802f289a
-  arch: x86_64
-  platform: osx
   license: Apache-2.0 WITH LLVM-exception
   license_family: Apache
   size: 1142172
@@ -467,8 +391,6 @@ packages:
   md5: 6c81cb022780ee33435cca0127dd43c9
   constrains:
   - expat 2.5.0.*
-  arch: x86_64
-  platform: osx
   license: MIT
   license_family: MIT
   size: 69602
@@ -482,8 +404,6 @@ packages:
   url: https://conda.anaconda.org/conda-forge/osx-64/libffi-3.4.2-h0d85af4_5.tar.bz2
   sha256: 7a2d27a936ceee6942ea4d397f9c7d136f12549d86f7617e8b6bad51e01a941f
   md5: ccb34fb14960ad8b125962d3d79b31a9
-  arch: x86_64
-  platform: osx
   license: MIT
   license_family: MIT
   size: 51348
@@ -600,8 +520,6 @@ packages:
   md5: e451d14a5412cdc68be50493df251f55
   depends:
   - libzlib >=1.2.13,<1.3.0a0
-  arch: x86_64
-  platform: osx
   license: Unlicense
   size: 902313
   timestamp: 1707495366004
@@ -672,8 +590,6 @@ packages:
   md5: 4a3ad23f6e16f99c04e166767193d700
   constrains:
   - zlib 1.2.13 *_5
-  arch: x86_64
-  platform: osx
   license: Zlib
   license_family: Other
   size: 59404
@@ -734,8 +650,6 @@ packages:
   md5: e58f366bd4d767e9ab97ab8b272e7670
   depends:
   - __osx >=10.9
-  arch: x86_64
-  platform: osx
   license: X11 AND BSD-3-Clause
   size: 822031
   timestamp: 1698751567986
@@ -784,8 +698,6 @@ packages:
   - ca-certificates
   constrains:
   - pyopenssl >=22.1
-  arch: x86_64
-  platform: osx
   license: Apache-2.0
   license_family: Apache
   size: 2509168
@@ -803,25 +715,6 @@ packages:
   depends:
   - __unix
   - python >=3.8
-  license: BSD-3-Clause
-  license_family: BSD
-  size: 18981
-  timestamp: 1661604969727
-- kind: conda
-  name: pysocks
-  version: 1.7.1
-  build: pyha2e5f31_6
-  build_number: 6
-  subdir: osx-64
-  noarch: python
-  url: https://conda.anaconda.org/conda-forge/noarch/pysocks-1.7.1-pyha2e5f31_6.tar.bz2
-  sha256: a42f826e958a8d22e65b3394f437af7332610e43ee313393d1cf143f0a2d274b
-  md5: 2a7de29fb590ca14b5243c4c812c8025
-  depends:
-  - __unix
-  - python >=3.8
-  arch: x86_64
-  platform: osx
   license: BSD-3-Clause
   license_family: BSD
   size: 18981
@@ -849,8 +742,6 @@ packages:
   - xz >=5.2.6,<6.0a0
   constrains:
   - python_abi 3.12.* *_cp312
-  arch: x86_64
-  platform: osx
   license: Python-2.0
   size: 14537279
   timestamp: 1703319526863
@@ -937,8 +828,6 @@ packages:
   md5: 87201ac4314b911b74197e588cca3639
   constrains:
   - python 3.12.* *_cpython
-  arch: x86_64
-  platform: osx
   license: BSD-3-Clause
   license_family: BSD
   size: 6496
@@ -1000,8 +889,6 @@ packages:
   md5: f17f77f2acf4d344734bda76829ce14e
   depends:
   - ncurses >=6.3,<7.0a0
-  arch: x86_64
-  platform: osx
   license: GPL-3.0-only
   license_family: GPL
   size: 255870
@@ -1028,29 +915,6 @@ packages:
   size: 56690
   timestamp: 1684774408600
 - kind: conda
-  name: requests
-  version: 2.31.0
-  build: pyhd8ed1ab_0
-  subdir: osx-64
-  noarch: python
-  url: https://conda.anaconda.org/conda-forge/noarch/requests-2.31.0-pyhd8ed1ab_0.conda
-  sha256: 9f629d6fd3c8ac5f2a198639fe7af87c4db2ac9235279164bfe0fcb49d8c4bad
-  md5: a30144e4156cdbb236f99ebb49828f8b
-  depends:
-  - certifi >=2017.4.17
-  - charset-normalizer >=2,<4
-  - idna >=2.5,<4
-  - python >=3.7
-  - urllib3 >=1.21.1,<3
-  constrains:
-  - chardet >=3.0.2,<6
-  arch: x86_64
-  platform: osx
-  license: Apache-2.0
-  license_family: APACHE
-  size: 56690
-  timestamp: 1684774408600
-- kind: conda
   name: soupsieve
   version: '2.5'
   build: pyhd8ed1ab_1
@@ -1067,24 +931,6 @@ packages:
   size: 36754
   timestamp: 1693929424267
 - kind: conda
-  name: soupsieve
-  version: '2.5'
-  build: pyhd8ed1ab_1
-  build_number: 1
-  subdir: osx-64
-  noarch: python
-  url: https://conda.anaconda.org/conda-forge/noarch/soupsieve-2.5-pyhd8ed1ab_1.conda
-  sha256: 54ae221033db8fbcd4998ccb07f3c3828b4d77e73b0c72b18c1d6a507059059c
-  md5: 3f144b2c34f8cb5a9abd9ed23a39c561
-  depends:
-  - python >=3.8
-  arch: x86_64
-  platform: osx
-  license: MIT
-  license_family: MIT
-  size: 36754
-  timestamp: 1693929424267
-- kind: conda
   name: tk
   version: 8.6.13
   build: h1abcd95_1
@@ -1095,8 +941,6 @@ packages:
   md5: bf830ba5afc507c6232d4ef0fb1a882d
   depends:
   - libzlib >=1.2.13,<1.3.0a0
-  arch: x86_64
-  platform: osx
   license: TCL
   license_family: BSD
   size: 3270220
@@ -1145,20 +989,6 @@ packages:
   size: 119815
   timestamp: 1706886945727
 - kind: conda
-  name: tzdata
-  version: 2024a
-  build: h0c530f3_0
-  subdir: osx-64
-  noarch: generic
-  url: https://conda.anaconda.org/conda-forge/noarch/tzdata-2024a-h0c530f3_0.conda
-  sha256: 7b2b69c54ec62a243eb6fba2391b5e443421608c3ae5dbff938ad33ca8db5122
-  md5: 161081fc7cec0bfda0d86d7cb595f8d8
-  arch: x86_64
-  platform: osx
-  license: LicenseRef-Public-Domain
-  size: 119815
-  timestamp: 1706886945727
-- kind: conda
   name: urllib3
   version: 2.2.0
   build: pyhd8ed1ab_0
@@ -1171,25 +1001,6 @@ packages:
   - brotli-python >=1.0.9
   - pysocks >=1.5.6,<2.0,!=1.5.7
   - python >=3.7
-  license: MIT
-  license_family: MIT
-  size: 94513
-  timestamp: 1706638243438
-- kind: conda
-  name: urllib3
-  version: 2.2.0
-  build: pyhd8ed1ab_0
-  subdir: osx-64
-  noarch: python
-  url: https://conda.anaconda.org/conda-forge/noarch/urllib3-2.2.0-pyhd8ed1ab_0.conda
-  sha256: 61a8a3bd36d235c349aedaf1aa6a79cce15d6fe89dca4bb593b596d0211513c6
-  md5: 6a7e0694921f668a030d52f0c47baebd
-  depends:
-  - brotli-python >=1.0.9
-  - pysocks >=1.5.6,<2.0,!=1.5.7
-  - python >=3.7
-  arch: x86_64
-  platform: osx
   license: MIT
   license_family: MIT
   size: 94513
@@ -1226,8 +1037,6 @@ packages:
   url: https://conda.anaconda.org/conda-forge/osx-64/xz-5.2.6-h775f41a_0.tar.bz2
   sha256: eb09823f34cc2dd663c0ec4ab13f246f45dcd52e5b8c47b9864361de5204a1c8
   md5: a72f9d4ea13d55d745ff1ed594747f10
-  arch: x86_64
-  platform: osx
   license: LGPL-2.1 and GPL-2.0
   size: 238119
   timestamp: 1660346964847

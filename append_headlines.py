@@ -37,10 +37,11 @@ now = datetime.now(timezone.utc)
 # Format the timestamp in ISO 8601 format with full time zone information
 iso_8601_string = now.isoformat()
 
-headlines_dict = {}
-headlines_dict[iso_8601_string] = [
+titles = [
     add_space_after_EXCLUSIVE(headline.text.strip()) for headline in headlines
 ]
+headlines_dict = {"timestamp":iso_8601_string, "titles":titles }
+
 
 with open("daily_mail_headlines.jsonl", "a", encoding="utf-8") as f:
     f.write(json.dumps(headlines_dict, ensure_ascii=False))
